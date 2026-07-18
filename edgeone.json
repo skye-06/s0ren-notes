@@ -2,7 +2,7 @@
 	"buildCommand": "npx quartz plugin install && npx quartz build",
 	"installCommand": "npm install --global npm@10.9.2 && npm ci",
 	"outputDirectory": "public",
-	"nodeVersion": "22.11.0",
+	"nodeVersion": "22.12.0",
 	"rewrites": [
 		{
 			"source": "/*",
