@@ -2,11 +2,5 @@
 	"buildCommand": "npx quartz plugin install && npx quartz build",
 	"installCommand": "npm install --global npm@10.9.2 && npm ci",
 	"outputDirectory": "public",
-	"nodeVersion": "22.17.1",
-	"rewrites": [
-		{
-			"source": "/*",
-			"destination": "/:splat.html"
-		}
-	]
+	"nodeVersion": "22.17.1"
 }
