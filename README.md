@@ -33,7 +33,7 @@ Markdown 文件会在构建时自动生成页面；可使用公式、表格、�
 
 从 GitHub 导入本仓库，生产分支选 `v5`。仓库中的 `edgeone.json` 已配置：
 
-- Node.js：`22.12.0`（Quartz v5 当前锁定依赖要求至少 22.12.0）
+- Node.js：`22.17.1`（Makers 预装且满足 Quartz v5 当前锁定依赖要求）
 - 安装命令：`npm install --global npm@10.9.2 && npm ci`
 - 构建命令：`npx quartz plugin install && npx quartz build`
 - 输出目录：`public`
