@@ -1,3 +1,63 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+@media all and ($mobile) {
+  .page > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .page > #quartz-body > *,
+  .sidebar.left > * {
+    min-width: 0;
+  }
+
+}
+
+@media all and (max-width: 480px) {
+  .page,
+  .page > #quartz-body,
+  .page > #quartz-body .center,
+  .page > #quartz-body article {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .sidebar.left .search {
+    flex: 0 0 2.25rem;
+    min-width: 2.25rem;
+    max-width: 2.25rem;
+  }
+
+  .sidebar.left .search-button {
+    padding: 0;
+  }
+
+  .sidebar.left .search-button p {
+    display: none;
+  }
+
+  .page > #quartz-body .sidebar.right {
+    flex-direction: column;
+  }
+
+  .page > #quartz-body .sidebar.right > * {
+    width: 100%;
+    max-height: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

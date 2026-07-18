@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">GNSS 几何关系示意图</title>
+  <desc id="desc">三颗卫星向地面接收机发送测距信号的简化示意。</desc>
+  <rect width="960" height="540" rx="24" fill="#f4f6f7"/>
+  <path d="M0 422Q210 360 430 410T960 390V540H0Z" fill="#d7e1e5"/>
+  <g fill="#284b63">
+    <circle cx="180" cy="120" r="20"/>
+    <circle cx="500" cy="76" r="20"/>
+    <circle cx="780" cy="154" r="20"/>
+  </g>
+  <g fill="none" stroke="#84a59d" stroke-width="5" stroke-dasharray="12 10">
+    <path d="M180 140L480 402"/>
+    <path d="M500 96L480 402"/>
+    <path d="M780 174L480 402"/>
+  </g>
+  <g fill="#2b2b2b" font-family="Arial, sans-serif" font-size="22">
+    <text x="128" y="92">卫星 1</text>
+    <text x="448" y="48">卫星 2</text>
+    <text x="728" y="126">卫星 3</text>
+    <text x="428" y="458">接收机</text>
+  </g>
+  <path d="M452 402h56l-9 28h-38Z" fill="#284b63"/>
+  <path d="M480 402v-42" stroke="#284b63" stroke-width="8" stroke-linecap="round"/>
+</svg>

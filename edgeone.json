@@ -1,0 +1,12 @@
+{
+	"buildCommand": "npx quartz plugin install && npx quartz build",
+	"installCommand": "npm ci",
+	"outputDirectory": "public",
+	"nodeVersion": "22.11.0",
+	"rewrites": [
+		{
+			"source": "/*",
+			"destination": "/:splat.html"
+		}
+	]
+}
