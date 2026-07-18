@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: zh-CN
-  baseUrl: s0ren-notes.edgeone.app
+  baseUrl: s0ren-notes-dkquijal.edgeone.cool
   ignorePatterns:
     - private
     - templates
@@ -203,7 +203,7 @@ plugins:
     enabled: true
     options:
       links:
-        个人主页: https://s0ren-home.edgeone.app/
+        个人主页: https://s0ren-home-xk8rcnfv.edgeone.cool/
         GitHub: https://github.com/skye-06/s0ren-notes
   - source: github:quartz-community/recent-notes
     enabled: false
