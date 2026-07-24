@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: zh-CN
-  baseUrl: s0ren-notes-dkquijal.edgeone.cool
+  baseUrl: notes.aisoren.top
   ignorePatterns:
     - private
     - templates
@@ -135,11 +135,6 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: github:quartz-community/graph
-    enabled: true
-    layout:
-      position: right
-      priority: 10
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -203,7 +198,7 @@ plugins:
     enabled: true
     options:
       links:
-        个人主页: https://s0ren-home-xk8rcnfv.edgeone.cool/
+        个人主页: https://aisoren.top/
         GitHub: https://github.com/skye-06/s0ren-notes
   - source: github:quartz-community/recent-notes
     enabled: false

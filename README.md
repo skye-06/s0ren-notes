@@ -38,9 +38,8 @@ Markdown 文件会在构建时自动生成页面；可使用公式、表格、�
 - 构建命令：`npx quartz plugin install && npx quartz build`
 - 输出目录：`public`
 
-当前项目域名为 `https://s0ren-notes-dkquijal.edgeone.cool/`，`baseUrl` 和
-Footer 的“个人主页”地址已经回填。当前加速区域包含中国大陆；按 Makers 的默认
-域名策略，控制台生成的预览链接有效期为 3 小时，长期公开访问需绑定自定义域名。
+当前公开域名为 `https://notes.aisoren.top/`，`baseUrl` 和 Footer 的“个人主页”
+地址均使用正式自定义域名。
 
 ## 许可
 
